@@ -43,6 +43,6 @@ print("\nData Types")
 print(df.dtypes)
 
 #Save Cleaned Dataset
-df.to_excel("data/Cleaned_Dataset.xlsx", index=False)
+df.to_csv("data/Cleaned_Dataset.csv", index=False)
 
 print("\nCleaning Completed Successfully!")
